@@ -11,8 +11,14 @@ background-image{
 }
 h1{
   text-align: center;
+  color: white;
 }
-body{
+h2{
+;
+}
+p{
+}
+/* body{
   padding: 12px
 
 }
@@ -20,3 +26,63 @@ body{
   height: auto;
   width: auto;
 }
+/* .column{
+  float:left;
+  width:25%
+  height:20%
+
+} */
+.row{
+
+
+}
+.column{
+  width: 100%
+  backgrund-size:100% auto
+  background-position:center;
+  background-repeat: no-repeat;
+  background-align:center;
+  height: 40%
+  float:left;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.intro{
+  float:right;
+}
+/* .breakfast{
+  background-image: url(../img/breakfast.jpg)
+  backgrund-size:100% auto
+  background-position:center;
+  background-repeat: no-repeat;
+  background-align:center;
+  height: 40%
+
+}
+.lunch{
+  background-image: url(../img/lunch.jpg);
+  backgrund-size:100% auto
+  background-position:center;
+  background-repeat: no-repeat;
+  background-align:center;
+  height: 40%
+  float:left;
+
+}
+.Dinner{
+  background-image: url(../img/lunch.jpg);
+  backgrund-size:100% auto
+  background-position:center;
+  background-repeat: no-repeat;
+  background-align:center;
+  height: 40%
+} */
