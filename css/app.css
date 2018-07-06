@@ -1,0 +1,22 @@
+background-image{
+  height: auto;
+  width: auto;
+}
+.outer-image {
+   display: block;
+   margin-left:auto;
+   margin-right: auto;
+   width: 25%;
+   height: 25%
+}
+h1{
+  text-align: center;
+}
+body{
+  padding: 12px
+
+}
+.inner-image{
+  height: auto;
+  width: auto;
+}
