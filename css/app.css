@@ -1,6 +1,7 @@
 background-image{
   height: auto;
   width: auto;
+  position: fixed;
 }
 .outer-image {
    display: block;
@@ -13,29 +14,6 @@ h1{
   text-align: center;
   color: white;
 }
-h2{
-;
-}
-p{
-}
-/* body{
-  padding: 12px
-
-}
-.inner-image{
-  height: auto;
-  width: auto;
-}
-/* .column{
-  float:left;
-  width:25%
-  height:20%
-
-} */
-.row{
-
-
-}
 .column{
   width: 100%
   backgrund-size:100% auto
@@ -47,42 +25,39 @@ p{
 }
 .column {
     float: left;
-    width: 25%;
+    width:25%;
 }
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-} 
-.intro{
+.row{
+  float: left;
+  align-text:left;
+}
+.new{
   float:right;
+  text-align: left;
 }
-/* .breakfast{
-  background-image: url(../img/breakfast.jpg)
-  backgrund-size:100% auto
-  background-position:center;
-  background-repeat: no-repeat;
-  background-align:center;
-  height: 40%
-
+.body{
+  mergin:100%;
+  background-color:orange;
 }
-.lunch{
-  background-image: url(../img/lunch.jpg);
-  backgrund-size:100% auto
-  background-position:center;
-  background-repeat: no-repeat;
-  background-align:center;
-  height: 40%
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* .alignleft{
+  text-align:left;
+}
+.alignright{
   float:left;
-
-}
-.Dinner{
-  background-image: url(../img/lunch.jpg);
-  backgrund-size:100% auto
-  background-position:center;
-  background-repeat: no-repeat;
-  background-align:center;
-  height: 40%
 } */
+..column{
+  float:top-Right;
+  text-align: left;
+}
+.backgrund{
+  height: auto;
+  width: auto;
+  position: fixed
+  image-display:block;
+}
