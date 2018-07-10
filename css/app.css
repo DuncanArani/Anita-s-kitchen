@@ -1,6 +1,6 @@
 background-image{
   height: auto;
-  width: auto;
+  width: 100%;
   position: fixed;
 }
 .outer-image {
@@ -9,10 +9,21 @@ background-image{
    margin-right: auto;
    width: 25%;
    height: 25%
+   float:right;
 }
 h1{
   text-align: center;
   color: white;
+}
+
+
+#Happy{
+
+  background-color:white;
+}
+#Party{
+  height:50%
+  background-color:coral;
 }
 .column{
   width: 100%
@@ -21,43 +32,88 @@ h1{
   background-repeat: no-repeat;
   background-align:center;
   height: 40%
-  float:left;
-}
-.column {
-    float: left;
-    width:25%;
-}
-.row{
+  width: 25%;
   float: left;
-  align-text:left;
+  margin: 0px
 }
-.new{
-  float:right;
-  text-align: left;
+   #Happy{
+    background-color: white;
+height: 50%;
+  }
+#Party{
+  background-color: coral;
+  height: 50%;s
 }
-.body{
-  mergin:100%;
-  background-color:orange;
-}
-.container{
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-/* .alignleft{
-  text-align:left;
-}
-.alignright{
-  float:left;
-} */
-..column{
-  float:top-Right;
-  text-align: left;
-}
-.backgrund{
+.background{
   height: auto;
-  width: auto;
-  position: fixed
-  image-display:block;
+  width:100%;
+  position:absolute;
+  padding:inherit;
+  margin:0px;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336; /* Red */
+}
+
+#contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+}
+.panel{
+  padding: 50px;
+  margin: auto;
+  width:100%;
+  background-color: coral;
+}
+#panel{
+  background-color: white;
+  margin-left:-3px
+  margin-right:3px
+}
+#Fastfoods{
+  padding:5px;
+  color: white;
+  background-color: grey;
+  padding-right:
+  border-style:ridge;
+}
+#sub{
+  align-content: left;
+}
+#Fastfood{
+color: orange;
+}
+#btn{
+  background-color: coral;
+}
+#p{
+  color: white;
 }

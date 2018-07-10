@@ -1,112 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link href="css/bootstrap.scss" rel="stylesheet" type="text/css">
-  <link href="css/app.css" rel="stylesheet" type="text/css">
-  <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/app.css">
+  <script src="scripts.js"></script>
   <title>Anita's Kitchen</title>
 </head>
+
 <body>
 
-    <div class="container">
+  <div class="container-fluid">
     <div class="jumbotron">
-  <div class="backgrund" style="background-image:url('img/landing.jpg')" class= "inner-image">
-  <img src="img/logoBig.png" alt="logo" class ="outer-image">
-  <h1>We Provide The Best Food <br> At The <strong> Right Price<strong></h1>
-  </div>
-
-
-  <div class="row">
-  <div class="column">
-    <div class="column">Happy Hour</div>
-    <div class="column">Party Time</div>
-     </div>
-     <div class="column">Breakfast<img src="../img/breakfast.jpg"  alt="Breakfast"></div>
-      <div class="column">lunch<img src="../img/lunch.jpg" alt="Lunch"></div>
-      <div class="column">Dinner<img src="../img/dinner2.jpg" alt="Dinner"></div>
+      <div class="backgrund" style="background-image:url('img/landing.jpg')" class="inner-image">
+        <img src="img/logoBig.png" alt="logo" class="outer-image">
+        <h1>We Provide The Best Food <br> At The <strong> Right Price<strong></h1>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="#" id="about">About</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="projects">Projects</a>
+        <a href="#" id="contact">Contact</a>
+      </div>s
     </div>
 
-          <div class="">
-            <img class="img" src="../img/fastFood1.jpg" alt="fast food 1">
-            <div class="">
-              <img class="img-fluid" src="../img/fastFood2.jpg" alt="fast food 2">
-            </div>
-          </div>
-          <div class=".column">
-            <h2 class="header">Fast Food</h2>
-            <h3 class="intro">You'll love our delicious foods</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <button class="btn btn-outline-warning align-self-bottom" type="button" name="button">view galarey</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <h4 class="head">Drinks</h4>
-            <h5 class="paragraph">We also produce delicious drinks</h5>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <button class="btn btn-outline-warning align-self-bottom" type="button" name="button">view galarey</button>
-          </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row" id="Happy">Happy Hour</div>
+        <div class="row" id="Party">Party Time</div>
       </div>
-
-        <div class="column">
-          <div class="row">
-            <img class="img-fluid" src="../img/drink1.jpg" alt="fast food 1">
-             </div>
-            <img class="img-fluid"  src="../img/drink2.jpg" alt="fast food 2">
-        </div>
-        <div class="row">
-          <div class="column">
-            <div class="backgrund" style="background-image:url('../img/foodsBg.jpg')" class= "inner-image">
-      </div>
+      <div class="col-md-3">Breakfast<img src="img/breakfast.jpg" alt="Breakfast"></div>
+      <div class="col-md-3">Lunch<img src="img/lunch.jpg" alt="Lunch"></div>
+      <div class="col-md-3">Dinner<img src="img/dinner2.jpg" alt="Dinner"></div>
     </div>
-      </div>
-      </div>
-  </body>
 
-</html>
-<!--
-      <div class="textbox">
+
+    <div class="container">
       <div class="row">
-        <div class="column">
-          <p class="alignleft"><img src="../img/fastFood1.jpg"alt=""><img src="../img/fastFood2.jpg" alt=""></p>
-          <div class="row">
-            <div class="row">
-            <p class="alignright">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <img src="img/fastFood1.jpg" alt="foods1">
+          <img src="img/fastFood2.jpg" alt="foods">
+        </div>
+        <div class="col-md-6">
+          <h2>Fast Food</h2>
+          <p class="intro">You'll love our delicious fast food Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button">view gallary</button>
         </div>
       </div>
 
-</div> --> -->
+    </div>
 
-      <!-- <div class="column">
-        <div class="new">
-          <div class="row" ><img src="../img/fastFood1.jpg" class="box"alt="fastfood" style="position: relative;padding:0px;margin:0px;"></div>
-          <div class="column"><img src="../img/fastFood2.jpg" alt="fastfoods"style="position:relative; padding:0px;"></div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Drinks</h3>
+        <p><strong>we also produce deliciouc drinks</strong></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button type="button">view gallar</button>
+      </div>
+      <div class="col-md-6">
+        <img src="img/drink1.jpg" alt="foods1">
+        <img src="img/drink2.jpg" alt="foods">
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="panel">
+        <div class="backgrund" style="background-image:url('img/foodsBg.jpg')" class="inner">
+          <div class="row">
+            <div class="col-md-3">
+              <div id="Fastfoods">Fast Food</div>
+            </div>
+            <div class="col-md-3">
+              <div id="Fastfoods">Drinks</div>
+            </div>
+            <div class="col-md-3">
+              <div id="Fastfoods">Chicken</div>
+            </div>
+            <div class="col-md-3">
+              <div id="Fastfoods">Rice</div>
+            </div>
           </div>
-          </div>
-          <div class="column">
+          <div id="panel">
             <div class="row">
-          <div class="intro"><h2>FAST FOOD</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          </div>
-          </div>
-            <div class="paragraph">
-              <div class="row">
-                <h2>Drinks</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="image">
-                  <div class="row">
-                  <div class="column" ><img src="../img/drink1.jpg" class="box"alt="fastfood" style=";"></div>
-                  <div class="row"><img src="../img/drink2.jpg" alt="fastfoods"style="column";></div>
-                  </div>
-                </div> -->
+              <div class="col-md-4"><img src="img/chickenBurger.jpg" alt="menu" class="outer"></div>
+              <div class="col-md-4"><img src="img/beefBurger.jpg" alt="menu" class="outer2"></div>
+              <div class="col-md-4"><img src="img/chickenPizza.jpg" alt="menu" class="outer3"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div id="Fastfood">Chicken Burger</div>
+              </div>
+              <div class="col-md-4">
+                <div id="Fastfood">BeefBurger</div>
+              </div>
+              <div class="col-md-4">
+                <div id="Fastfood">Chicken Pizza</div>
               </div>
             </div>
           </div>
-    </body>
-   </html>
+        </div>
+        <div class="container">
+          <div class="panel">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>Our Happy Customers</h4>
+                <h5>Protus Oduor</h5>
+                <p>Great food! menunis awesome, there foods are not only great but also in the right price.i will highly recommrnd them</p>
+                <div class="column">
+                  <img src="img/p1.png" alt="customer1">
+                  <img src="img/p2.png" alt="customer2">
+                  <img src="img/p3.png" alt="customer3">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h6>About Menu</h6>
+                <p>We are menu a little team of 7 members Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="panel" id="sub" style="background-image:url('img/subscribe.jpg');">
+              <p id="p">Get our dairy food items delivered to your email</p>
+              <form class="form-inline">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <button type="subscription" id="btn">subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="panel">
+            <h8><img src="img/logo_white.png" alt="menu">MENU</h8>
+            <p>That is what we are</p>
+            <img src="img/facebook.png" alt="">
+              <img src="img/twitter.png" alt="">
+            <img src="img/pinterest.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<
